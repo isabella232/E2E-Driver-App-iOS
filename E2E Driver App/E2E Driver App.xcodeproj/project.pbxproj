@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC49C4F1F82E2A20035580C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C4E1F82E2A20035580C /* AppDelegate.swift */; };
+		2DC49C511F82E2A20035580C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C501F82E2A20035580C /* ViewController.swift */; };
+		2DC49C541F82E2A20035580C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC49C521F82E2A20035580C /* Main.storyboard */; };
+		2DC49C571F82E2A20035580C /* E2E_Driver_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C551F82E2A20035580C /* E2E_Driver_App.xcdatamodeld */; };
+		2DC49C591F82E2A20035580C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC49C581F82E2A20035580C /* Assets.xcassets */; };
+		2DC49C5C1F82E2A20035580C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC49C5A1F82E2A20035580C /* LaunchScreen.storyboard */; };
+		2DC49C671F82E2A20035580C /* E2E_Driver_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C661F82E2A20035580C /* E2E_Driver_AppTests.swift */; };
+		2DC49C721F82E2A20035580C /* E2E_Driver_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C711F82E2A20035580C /* E2E_Driver_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DC49C631F82E2A20035580C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DC49C431F82E2A20035580C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC49C4A1F82E2A20035580C;
+			remoteInfo = "E2E Driver App";
+		};
+		2DC49C6E1F82E2A20035580C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DC49C431F82E2A20035580C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC49C4A1F82E2A20035580C;
+			remoteInfo = "E2E Driver App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DC49C4B1F82E2A20035580C /* E2E Driver App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E2E Driver App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC49C4E1F82E2A20035580C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DC49C501F82E2A20035580C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DC49C531F82E2A20035580C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DC49C561F82E2A20035580C /* E2E_Driver_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = E2E_Driver_App.xcdatamodel; sourceTree = "<group>"; };
+		2DC49C581F82E2A20035580C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DC49C5B1F82E2A20035580C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DC49C5D1F82E2A20035580C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC49C621F82E2A20035580C /* E2E Driver AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E2E Driver AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC49C661F82E2A20035580C /* E2E_Driver_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E2E_Driver_AppTests.swift; sourceTree = "<group>"; };
+		2DC49C681F82E2A20035580C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC49C6D1F82E2A20035580C /* E2E Driver AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E2E Driver AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DC49C711F82E2A20035580C /* E2E_Driver_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E2E_Driver_AppUITests.swift; sourceTree = "<group>"; };
+		2DC49C731F82E2A20035580C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DC49C481F82E2A20035580C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC49C5F1F82E2A20035580C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC49C6A1F82E2A20035580C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC49C421F82E2A20035580C = {
+			isa = PBXGroup;
+			children = (
+				2DC49C4D1F82E2A20035580C /* E2E Driver App */,
+				2DC49C651F82E2A20035580C /* E2E Driver AppTests */,
+				2DC49C701F82E2A20035580C /* E2E Driver AppUITests */,
+				2DC49C4C1F82E2A20035580C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DC49C4C1F82E2A20035580C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DC49C4B1F82E2A20035580C /* E2E Driver App.app */,
+				2DC49C621F82E2A20035580C /* E2E Driver AppTests.xctest */,
+				2DC49C6D1F82E2A20035580C /* E2E Driver AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DC49C4D1F82E2A20035580C /* E2E Driver App */ = {
+			isa = PBXGroup;
+			children = (
+				2DC49C4E1F82E2A20035580C /* AppDelegate.swift */,
+				2DC49C501F82E2A20035580C /* ViewController.swift */,
+				2DC49C521F82E2A20035580C /* Main.storyboard */,
+				2DC49C581F82E2A20035580C /* Assets.xcassets */,
+				2DC49C5A1F82E2A20035580C /* LaunchScreen.storyboard */,
+				2DC49C5D1F82E2A20035580C /* Info.plist */,
+				2DC49C551F82E2A20035580C /* E2E_Driver_App.xcdatamodeld */,
+			);
+			path = "E2E Driver App";
+			sourceTree = "<group>";
+		};
+		2DC49C651F82E2A20035580C /* E2E Driver AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DC49C661F82E2A20035580C /* E2E_Driver_AppTests.swift */,
+				2DC49C681F82E2A20035580C /* Info.plist */,
+			);
+			path = "E2E Driver AppTests";
+			sourceTree = "<group>";
+		};
+		2DC49C701F82E2A20035580C /* E2E Driver AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DC49C711F82E2A20035580C /* E2E_Driver_AppUITests.swift */,
+				2DC49C731F82E2A20035580C /* Info.plist */,
+			);
+			path = "E2E Driver AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DC49C4A1F82E2A20035580C /* E2E Driver App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC49C761F82E2A20035580C /* Build configuration list for PBXNativeTarget "E2E Driver App" */;
+			buildPhases = (
+				2DC49C471F82E2A20035580C /* Sources */,
+				2DC49C481F82E2A20035580C /* Frameworks */,
+				2DC49C491F82E2A20035580C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E2E Driver App";
+			productName = "E2E Driver App";
+			productReference = 2DC49C4B1F82E2A20035580C /* E2E Driver App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DC49C611F82E2A20035580C /* E2E Driver AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC49C791F82E2A20035580C /* Build configuration list for PBXNativeTarget "E2E Driver AppTests" */;
+			buildPhases = (
+				2DC49C5E1F82E2A20035580C /* Sources */,
+				2DC49C5F1F82E2A20035580C /* Frameworks */,
+				2DC49C601F82E2A20035580C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC49C641F82E2A20035580C /* PBXTargetDependency */,
+			);
+			name = "E2E Driver AppTests";
+			productName = "E2E Driver AppTests";
+			productReference = 2DC49C621F82E2A20035580C /* E2E Driver AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DC49C6C1F82E2A20035580C /* E2E Driver AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DC49C7C1F82E2A20035580C /* Build configuration list for PBXNativeTarget "E2E Driver AppUITests" */;
+			buildPhases = (
+				2DC49C691F82E2A20035580C /* Sources */,
+				2DC49C6A1F82E2A20035580C /* Frameworks */,
+				2DC49C6B1F82E2A20035580C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC49C6F1F82E2A20035580C /* PBXTargetDependency */,
+			);
+			name = "E2E Driver AppUITests";
+			productName = "E2E Driver AppUITests";
+			productReference = 2DC49C6D1F82E2A20035580C /* E2E Driver AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DC49C431F82E2A20035580C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Optimizely;
+				TargetAttributes = {
+					2DC49C4A1F82E2A20035580C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BDMC9C2X5M;
+						ProvisioningStyle = Automatic;
+					};
+					2DC49C611F82E2A20035580C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BDMC9C2X5M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DC49C4A1F82E2A20035580C;
+					};
+					2DC49C6C1F82E2A20035580C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BDMC9C2X5M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DC49C4A1F82E2A20035580C;
+					};
+				};
+			};
+			buildConfigurationList = 2DC49C461F82E2A20035580C /* Build configuration list for PBXProject "E2E Driver App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DC49C421F82E2A20035580C;
+			productRefGroup = 2DC49C4C1F82E2A20035580C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DC49C4A1F82E2A20035580C /* E2E Driver App */,
+				2DC49C611F82E2A20035580C /* E2E Driver AppTests */,
+				2DC49C6C1F82E2A20035580C /* E2E Driver AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DC49C491F82E2A20035580C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC49C5C1F82E2A20035580C /* LaunchScreen.storyboard in Resources */,
+				2DC49C591F82E2A20035580C /* Assets.xcassets in Resources */,
+				2DC49C541F82E2A20035580C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC49C601F82E2A20035580C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC49C6B1F82E2A20035580C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DC49C471F82E2A20035580C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC49C571F82E2A20035580C /* E2E_Driver_App.xcdatamodeld in Sources */,
+				2DC49C511F82E2A20035580C /* ViewController.swift in Sources */,
+				2DC49C4F1F82E2A20035580C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC49C5E1F82E2A20035580C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC49C671F82E2A20035580C /* E2E_Driver_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC49C691F82E2A20035580C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC49C721F82E2A20035580C /* E2E_Driver_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DC49C641F82E2A20035580C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DC49C4A1F82E2A20035580C /* E2E Driver App */;
+			targetProxy = 2DC49C631F82E2A20035580C /* PBXContainerItemProxy */;
+		};
+		2DC49C6F1F82E2A20035580C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DC49C4A1F82E2A20035580C /* E2E Driver App */;
+			targetProxy = 2DC49C6E1F82E2A20035580C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DC49C521F82E2A20035580C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC49C531F82E2A20035580C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DC49C5A1F82E2A20035580C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DC49C5B1F82E2A20035580C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DC49C741F82E2A20035580C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DC49C751F82E2A20035580C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DC49C771F82E2A20035580C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BDMC9C2X5M;
+				INFOPLIST_FILE = "E2E Driver App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Optimizely.E2E-Driver-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2DC49C781F82E2A20035580C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BDMC9C2X5M;
+				INFOPLIST_FILE = "E2E Driver App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Optimizely.E2E-Driver-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2DC49C7A1F82E2A20035580C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BDMC9C2X5M;
+				INFOPLIST_FILE = "E2E Driver AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Optimizely.E2E-Driver-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E2E Driver App.app/E2E Driver App";
+			};
+			name = Debug;
+		};
+		2DC49C7B1F82E2A20035580C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BDMC9C2X5M;
+				INFOPLIST_FILE = "E2E Driver AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Optimizely.E2E-Driver-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E2E Driver App.app/E2E Driver App";
+			};
+			name = Release;
+		};
+		2DC49C7D1F82E2A20035580C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BDMC9C2X5M;
+				INFOPLIST_FILE = "E2E Driver AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Optimizely.E2E-Driver-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "E2E Driver App";
+			};
+			name = Debug;
+		};
+		2DC49C7E1F82E2A20035580C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BDMC9C2X5M;
+				INFOPLIST_FILE = "E2E Driver AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Optimizely.E2E-Driver-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "E2E Driver App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DC49C461F82E2A20035580C /* Build configuration list for PBXProject "E2E Driver App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC49C741F82E2A20035580C /* Debug */,
+				2DC49C751F82E2A20035580C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DC49C761F82E2A20035580C /* Build configuration list for PBXNativeTarget "E2E Driver App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC49C771F82E2A20035580C /* Debug */,
+				2DC49C781F82E2A20035580C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DC49C791F82E2A20035580C /* Build configuration list for PBXNativeTarget "E2E Driver AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC49C7A1F82E2A20035580C /* Debug */,
+				2DC49C7B1F82E2A20035580C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DC49C7C1F82E2A20035580C /* Build configuration list for PBXNativeTarget "E2E Driver AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC49C7D1F82E2A20035580C /* Debug */,
+				2DC49C7E1F82E2A20035580C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DC49C551F82E2A20035580C /* E2E_Driver_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DC49C561F82E2A20035580C /* E2E_Driver_App.xcdatamodel */,
+			);
+			currentVersion = 2DC49C561F82E2A20035580C /* E2E_Driver_App.xcdatamodel */;
+			path = E2E_Driver_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DC49C431F82E2A20035580C /* Project object */;
+}
