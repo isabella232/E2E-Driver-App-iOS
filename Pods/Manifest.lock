@@ -1,0 +1,63 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - JSONModel (1.3.0)
+  - OptimizelySDKCore (1.3.0):
+    - OptimizelySDKCore/JSONModel (= 1.3.0)
+  - OptimizelySDKCore/JSONModel (1.3.0):
+    - JSONModel (= 1.3.0)
+  - OptimizelySDKDatafileManager (1.3.0):
+    - OptimizelySDKDatafileManager/JSONModel (= 1.3.0)
+    - OptimizelySDKShared (= 1.3.0)
+  - OptimizelySDKDatafileManager/JSONModel (1.3.0):
+    - JSONModel (= 1.3.0)
+    - OptimizelySDKShared (= 1.3.0)
+  - OptimizelySDKEventDispatcher (1.3.0):
+    - OptimizelySDKEventDispatcher/JSONModel (= 1.3.0)
+    - OptimizelySDKShared (= 1.3.0)
+  - OptimizelySDKEventDispatcher/JSONModel (1.3.0):
+    - JSONModel (= 1.3.0)
+    - OptimizelySDKShared (= 1.3.0)
+  - OptimizelySDKiOS (1.3.0):
+    - OptimizelySDKDatafileManager (= 1.3.0)
+    - OptimizelySDKEventDispatcher (= 1.3.0)
+    - OptimizelySDKiOS/JSONModel (= 1.3.0)
+    - OptimizelySDKUserProfileService (= 1.3.0)
+  - OptimizelySDKiOS/JSONModel (1.3.0):
+    - JSONModel (= 1.3.0)
+    - OptimizelySDKDatafileManager (= 1.3.0)
+    - OptimizelySDKEventDispatcher (= 1.3.0)
+    - OptimizelySDKUserProfileService (= 1.3.0)
+  - OptimizelySDKShared (1.3.0):
+    - FMDB (= 2.6.2)
+    - JSONModel (= 1.3.0)
+    - OptimizelySDKCore (= 1.3.0)
+  - OptimizelySDKUserProfileService (1.3.0):
+    - OptimizelySDKShared (= 1.3.0)
+    - OptimizelySDKUserProfileService/JSONModel (= 1.3.0)
+  - OptimizelySDKUserProfileService/JSONModel (1.3.0):
+    - JSONModel (= 1.3.0)
+    - OptimizelySDKShared (= 1.3.0)
+
+DEPENDENCIES:
+  - OptimizelySDKCore
+  - OptimizelySDKDatafileManager
+  - OptimizelySDKEventDispatcher
+  - OptimizelySDKiOS
+  - OptimizelySDKShared
+  - OptimizelySDKUserProfileService
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  JSONModel: 81c06ecf99190a25fa6aafceea5faffa7880868a
+  OptimizelySDKCore: c1b7fe66c7e6c26723d884cfdf59a3926de0c21c
+  OptimizelySDKDatafileManager: d67aaa75ba13efd73e4c84d0303e23db9d43ca05
+  OptimizelySDKEventDispatcher: 0b94286c4d636cfaa4fccba47bc4b3877bf12c9e
+  OptimizelySDKiOS: 536ec9bd27b85d59e5b9ec0f494f8f9d59d90830
+  OptimizelySDKShared: 0eddc132c33a7b459c3c9df711396b0e5770b05a
+  OptimizelySDKUserProfileService: 2a71297d25e3ecd6b6f9d39def2b03a32587e7e3
+
+PODFILE CHECKSUM: e298519e8c92dc45a11b3265b3059d986c45670d
+
+COCOAPODS: 1.2.0
