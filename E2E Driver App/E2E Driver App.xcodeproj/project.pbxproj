@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D5C4F501F8410FE00E6D315 /* datafile.json in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C4F4F1F8410FD00E6D315 /* datafile.json */; };
+		2D5C4F511F84111200E6D315 /* datafile.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C4F4F1F8410FD00E6D315 /* datafile.json */; };
 		2DC49C4F1F82E2A20035580C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C4E1F82E2A20035580C /* AppDelegate.swift */; };
 		2DC49C511F82E2A20035580C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C501F82E2A20035580C /* ViewController.swift */; };
 		2DC49C541F82E2A20035580C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC49C521F82E2A20035580C /* Main.storyboard */; };
@@ -40,6 +42,7 @@
 /* Begin PBXFileReference section */
 		1B0641909DCE03702CCDA6C5 /* Pods_E2E_Driver_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E2E_Driver_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B14CCA7C2C61D4DF97C5D7F /* Pods-E2E Driver AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E2E Driver AppTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-E2E Driver AppTests/Pods-E2E Driver AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D5C4F4F1F8410FD00E6D315 /* datafile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = datafile.json; path = ../datafile.json; sourceTree = "<group>"; };
 		2DC49C4B1F82E2A20035580C /* E2E Driver App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E2E Driver App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC49C4E1F82E2A20035580C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DC49C501F82E2A20035580C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +97,7 @@
 		2DC49C421F82E2A20035580C = {
 			isa = PBXGroup;
 			children = (
+				2D5C4F4F1F8410FD00E6D315 /* datafile.json */,
 				2DC49C4D1F82E2A20035580C /* E2E Driver App */,
 				2DC49C651F82E2A20035580C /* E2E Driver AppTests */,
 				2DC49C701F82E2A20035580C /* E2E Driver AppUITests */,
@@ -290,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5C4F511F84111200E6D315 /* datafile.json in Resources */,
 				2DC49C5C1F82E2A20035580C /* LaunchScreen.storyboard in Resources */,
 				2DC49C591F82E2A20035580C /* Assets.xcassets in Resources */,
 				2DC49C541F82E2A20035580C /* Main.storyboard in Resources */,
@@ -455,6 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5C4F501F8410FE00E6D315 /* datafile.json in Sources */,
 				2DC49C571F82E2A20035580C /* E2E_Driver_App.xcdatamodeld in Sources */,
 				2DC49C511F82E2A20035580C /* ViewController.swift in Sources */,
 				2DC49C4F1F82E2A20035580C /* AppDelegate.swift in Sources */,
