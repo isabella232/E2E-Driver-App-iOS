@@ -8,6 +8,12 @@ target 'E2E Driver App' do
   use_frameworks!
 
   # Pods for E2E Driver App
+  pod 'OptimizelySDKiOS'
+  pod 'OptimizelySDKDatafileManager'
+  pod 'OptimizelySDKEventDispatcher'
+  pod 'OptimizelySDKUserProfileService'
+  pod 'OptimizelySDKShared'
+  pod 'OptimizelySDKCore'
 
   target 'E2E Driver AppTests' do
     inherit! :search_paths
