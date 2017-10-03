@@ -448,17 +448,17 @@
 		00734B0BD6C138902DFDBC85F956648B /* OPTLYErrorHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYErrorHandler.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYErrorHandler.m; sourceTree = "<group>"; };
 		00D42153C75ADF0D418899ECD35A064D /* Pods-E2E Driver App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-E2E Driver App-umbrella.h"; sourceTree = "<group>"; };
 		01B0FF258908E0488A3245029BD6658F /* OptimizelySDKiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizelySDKiOS-umbrella.h"; sourceTree = "<group>"; };
-		06BF046449892E73855424EC94AF0754 /* Pods-E2E Driver AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-E2E Driver AppUITests.modulemap"; sourceTree = "<group>"; };
+		06BF046449892E73855424EC94AF0754 /* Pods-E2E Driver AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-E2E Driver AppUITests.modulemap"; sourceTree = "<group>"; };
 		079F3620246A605841D57DDE56EC0A8A /* OPTLYEventDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventDispatcher.h; path = OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher/OPTLYEventDispatcher.h; sourceTree = "<group>"; };
 		09AB43BB574699760FF472FBD4C6D64F /* Pods-E2E Driver AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-E2E Driver AppUITests-dummy.m"; sourceTree = "<group>"; };
-		0B854DA0174D553CBBA0DF9A706FDAD9 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FMDB.modulemap; sourceTree = "<group>"; };
+		0B854DA0174D553CBBA0DF9A706FDAD9 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FMDB.modulemap; sourceTree = "<group>"; };
 		0C11AD4A627882F20B11448FCAE1C9EA /* OPTLYDataStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDataStore.m; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYDataStore.m; sourceTree = "<group>"; };
-		0CA1D0DFBC0DC6AD3DB9992EA50B06B4 /* OptimizelySDKDatafileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OptimizelySDKDatafileManager.modulemap; sourceTree = "<group>"; };
+		0CA1D0DFBC0DC6AD3DB9992EA50B06B4 /* OptimizelySDKDatafileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OptimizelySDKDatafileManager.modulemap; sourceTree = "<group>"; };
 		0DF152DB8CA14B416BFD8C7F11F70DF3 /* OPTLYAudience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYAudience.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYAudience.h; sourceTree = "<group>"; };
 		0EBC4FE36B64F8743D6C884CC5C37BA4 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
 		0EC23A18FF0972EAABF5C1F2220293C8 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
 		0F3590F04AE4712A966772E8F11AC050 /* OptimizelySDKEventDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OptimizelySDKEventDispatcher.h; path = OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.h; sourceTree = "<group>"; };
-		0F4059A27C865764FCE9D91B9FB9FBF1 /* OptimizelySDKShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKShared.framework; path = OptimizelySDKShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4059A27C865764FCE9D91B9FB9FBF1 /* OptimizelySDKShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D5839E5E5662EE0C243CEF657AA900 /* Pods-E2E Driver AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-E2E Driver AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		10E14834D0868F430310A10164DDE71B /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		131B3F5734BA80B5E0BFA4EE0401C636 /* Optimizely.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Optimizely.m; path = OptimizelySDKCore/OptimizelySDKCore/Optimizely.m; sourceTree = "<group>"; };
@@ -466,7 +466,7 @@
 		14701679D1A6957F6493AD915E62B2AA /* OPTLYDatafileKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDatafileKeys.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYDatafileKeys.m; sourceTree = "<group>"; };
 		15EED0774E0951F378D31B0BAF1179CD /* OptimizelySDKCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OptimizelySDKCore.h; path = OptimizelySDKCore/OptimizelySDKCore/OptimizelySDKCore.h; sourceTree = "<group>"; };
 		1713C47EDA7EA67B290122F4F1F81C4E /* OPTLYEventFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventFeature.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventFeature.h; sourceTree = "<group>"; };
-		17C3D2527789D059867020AD93DCFEAF /* OptimizelySDKUserProfileService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OptimizelySDKUserProfileService.modulemap; sourceTree = "<group>"; };
+		17C3D2527789D059867020AD93DCFEAF /* OptimizelySDKUserProfileService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OptimizelySDKUserProfileService.modulemap; sourceTree = "<group>"; };
 		19A8C34091B047981D08558E44EBBE5C /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
 		1B1B1A6EFB5AB8FB313D118DE38AF2D0 /* OptimizelySDKCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizelySDKCore-prefix.pch"; sourceTree = "<group>"; };
 		1B569C4B2FD70DBE7C6DFD5A6BBD47E1 /* OPTLYUserProfileServiceBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYUserProfileServiceBuilder.h; path = OptimizelySDKUserProfileService/OptimizelySDKUserProfileService/OPTLYUserProfileServiceBuilder.h; sourceTree = "<group>"; };
@@ -510,12 +510,12 @@
 		3BA07CC1B0D4D04D735A48ECC7BA63E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CADCE397311DC695AC202D3E2364A40 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
 		3D038BD0EA125EE9C90B26970AD2E75F /* OPTLYEventDecisionTicket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventDecisionTicket.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventDecisionTicket.h; sourceTree = "<group>"; };
-		3D9C2B4718711CFC19BB6DDB1D528B33 /* Pods_E2E_Driver_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_E2E_Driver_AppUITests.framework; path = "Pods-E2E Driver AppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9C2B4718711CFC19BB6DDB1D528B33 /* Pods_E2E_Driver_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E2E_Driver_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E773C29A871211BF7762E77A2E72EE8 /* OPTLYUserProfileService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYUserProfileService.h; path = OptimizelySDKUserProfileService/OptimizelySDKUserProfileService/OPTLYUserProfileService.h; sourceTree = "<group>"; };
 		3EF97C0A775E6CC000641537B5C7E7BA /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
 		3F55D52CCA9CF6C415607C0FB4941FB9 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		3F7EC412CDF8F31F2D50991B8643CB04 /* Pods-E2E Driver App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E2E Driver App-acknowledgements.plist"; sourceTree = "<group>"; };
-		3FCE5010751844374010A3D1269228C0 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		3FCE5010751844374010A3D1269228C0 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSONModel.modulemap; sourceTree = "<group>"; };
 		400989C9CA5B3B2171367E0AA654365A /* OPTLYExperiment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYExperiment.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYExperiment.h; sourceTree = "<group>"; };
 		40D9105EDFCE8E5393471ADD5B33FA5A /* OPTLYDatafileManagerBasic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDatafileManagerBasic.m; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYDatafileManagerBasic.m; sourceTree = "<group>"; };
 		41AAA06BCFA0AEBD70E80A673CC99FFA /* OptimizelySDKShared-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimizelySDKShared-dummy.m"; sourceTree = "<group>"; };
@@ -529,21 +529,21 @@
 		47E6E5B12BEAF29B0E4B194C5091B4E3 /* OptimizelySDKEventDispatcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizelySDKEventDispatcher-prefix.pch"; sourceTree = "<group>"; };
 		48094CA031F77555539FEE340FC93B4D /* OptimizelySDKEventDispatcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimizelySDKEventDispatcher-dummy.m"; sourceTree = "<group>"; };
 		48B9ED21EC6D68F6CA26A93F690E9677 /* Optimizely.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Optimizely.h; path = OptimizelySDKCore/OptimizelySDKCore/Optimizely.h; sourceTree = "<group>"; };
-		4902804A4F83DA9E2B9F2E28AB53DF50 /* Pods_E2E_Driver_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_E2E_Driver_AppTests.framework; path = "Pods-E2E Driver AppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4902804A4F83DA9E2B9F2E28AB53DF50 /* Pods_E2E_Driver_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E2E_Driver_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4905A54D5AA4F283BC56D79849C3758F /* OptimizelySDKDatafileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OptimizelySDKDatafileManager.h; path = OptimizelySDKDatafileManager/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.h; sourceTree = "<group>"; };
 		4B731C21764002954BEF970559A5713C /* OPTLYEventDecision.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventDecision.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventDecision.m; sourceTree = "<group>"; };
 		4DAC1BF52F4E7546FB119C875B537864 /* OPTLYBucketer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYBucketer.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYBucketer.m; sourceTree = "<group>"; };
-		4EE1CC12004B0B9E12D51B2330D47993 /* OptimizelySDKCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OptimizelySDKCore.modulemap; sourceTree = "<group>"; };
+		4EE1CC12004B0B9E12D51B2330D47993 /* OptimizelySDKCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OptimizelySDKCore.modulemap; sourceTree = "<group>"; };
 		4FF10060B49F5B55DCE1E82CA82D55D9 /* OPTLYMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYMacros.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYMacros.h; sourceTree = "<group>"; };
 		50F97688B27CDF0C0E6EACE90B3E3448 /* Pods-E2E Driver AppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-E2E Driver AppTests-resources.sh"; sourceTree = "<group>"; };
 		52043CA0111D97DD46F08FB13FA3B914 /* Pods-E2E Driver AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E2E Driver AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		522EF0759E27A9CF744EC74339C55409 /* OptimizelySDKiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OptimizelySDKiOS.modulemap; sourceTree = "<group>"; };
+		522EF0759E27A9CF744EC74339C55409 /* OptimizelySDKiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OptimizelySDKiOS.modulemap; sourceTree = "<group>"; };
 		52FF362360395E9D5AE22293561C8911 /* murmur3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = murmur3.h; path = OptimizelySDKCore/Frameworks/murmur/murmur3.h; sourceTree = "<group>"; };
-		53A6DA58520FC3B5302D936A27FFC23D /* Pods-E2E Driver AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-E2E Driver AppTests.modulemap"; sourceTree = "<group>"; };
+		53A6DA58520FC3B5302D936A27FFC23D /* Pods-E2E Driver AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-E2E Driver AppTests.modulemap"; sourceTree = "<group>"; };
 		53E525130674A3D697C6F878BF953DBE /* OptimizelySDKCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimizelySDKCore-dummy.m"; sourceTree = "<group>"; };
 		55E825628CEEA06DFB1D2F1300775707 /* OPTLYEventDecisionTicket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventDecisionTicket.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventDecisionTicket.m; sourceTree = "<group>"; };
 		5707DC3CAAB133542AD3935BA64D07E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		593DC874B695820A9CBB725A56821B37 /* OptimizelySDKDatafileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKDatafileManager.framework; path = OptimizelySDKDatafileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		593DC874B695820A9CBB725A56821B37 /* OptimizelySDKDatafileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKDatafileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABE7F4F7754E90CEE89486ADBD7F8EA /* OptimizelySDKUserProfileService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OptimizelySDKUserProfileService.xcconfig; sourceTree = "<group>"; };
 		5BB9B78425D21BBE96CC2A06743A0700 /* OPTLYEventDispatcherBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventDispatcherBasic.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventDispatcherBasic.h; sourceTree = "<group>"; };
 		5C9B4122629D33BB011DB0486E24C1C1 /* OPTLYQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYQueue.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYQueue.m; sourceTree = "<group>"; };
@@ -560,12 +560,12 @@
 		68E8F331FA8134E2A31AA4D46D63B06E /* OPTLYManagerBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYManagerBuilder.h; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYManagerBuilder.h; sourceTree = "<group>"; };
 		6ADA009653DE0EE1E946B2D1DA815442 /* OPTLYLoggerMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYLoggerMessages.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYLoggerMessages.h; sourceTree = "<group>"; };
 		6AE46DFCEA5B68493DEB176E5CA6ACFE /* OPTLYDecisionEventTicket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDecisionEventTicket.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYDecisionEventTicket.m; sourceTree = "<group>"; };
-		6AF63F4A8D573A10658B1513304B1F15 /* OptimizelySDKShared.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OptimizelySDKShared.modulemap; sourceTree = "<group>"; };
+		6AF63F4A8D573A10658B1513304B1F15 /* OptimizelySDKShared.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OptimizelySDKShared.modulemap; sourceTree = "<group>"; };
 		6B5BC58A1425E54B3707A40262836131 /* OPTLYEventBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventBuilder.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventBuilder.m; sourceTree = "<group>"; };
 		6BD2E377FE18A1D315D23CD43F8F964B /* OPTLYEventTicket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventTicket.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventTicket.m; sourceTree = "<group>"; };
-		6D38F4D7B89F01F158673EC906D3767F /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D38F4D7B89F01F158673EC906D3767F /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8621E207AF21E6CDC58C6FB09CDD4F /* OptimizelySDKEventDispatcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizelySDKEventDispatcher-umbrella.h"; sourceTree = "<group>"; };
-		6F35461E068F0807067E1D880CE08020 /* Pods-E2E Driver App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-E2E Driver App.modulemap"; sourceTree = "<group>"; };
+		6F35461E068F0807067E1D880CE08020 /* Pods-E2E Driver App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-E2E Driver App.modulemap"; sourceTree = "<group>"; };
 		706FA6BF3D5E691E7094F7C3DD2B9F6D /* OPTLYDatafileManagerBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYDatafileManagerBasic.h; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYDatafileManagerBasic.h; sourceTree = "<group>"; };
 		70FACDEC088E31BD3AEB39D53CED4C77 /* OPTLYLoggerMessages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYLoggerMessages.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYLoggerMessages.m; sourceTree = "<group>"; };
 		710AA626EAEAA4626E2704B84C87FA2A /* OptimizelySDKDatafileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimizelySDKDatafileManager-dummy.m"; sourceTree = "<group>"; };
@@ -594,17 +594,17 @@
 		8AFC9F2741B70D2E85744B1EECBCB2E7 /* OptimizelySDKUserProfileService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKUserProfileService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B30116D58C02D2CF9B6358F5C385995 /* OPTLYExperimentBucketMapEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYExperimentBucketMapEntity.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYExperimentBucketMapEntity.m; sourceTree = "<group>"; };
 		8DB3AC0DB1B57D48443C0544D4572303 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
-		8F694173FCE4B4EC518ADDACE4B99097 /* murmur3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = murmur3.c; path = OptimizelySDKCore/Frameworks/murmur/murmur3.c; sourceTree = "<group>"; };
+		8F694173FCE4B4EC518ADDACE4B99097 /* murmur3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = murmur3.c; path = OptimizelySDKCore/Frameworks/murmur/murmur3.c; sourceTree = "<group>"; };
 		8FDEB08CD331DDAF5F22C928F0B468DF /* Pods-E2E Driver App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-E2E Driver App-resources.sh"; sourceTree = "<group>"; };
 		90ACB6AC9EBAAD92243DABFC1BC1F645 /* OPTLYDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYDataStore.h; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYDataStore.h; sourceTree = "<group>"; };
 		914EBF45273D2C661370C79B0491AB84 /* OPTLYVariationVariable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYVariationVariable.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYVariationVariable.m; sourceTree = "<group>"; };
 		91C5AA0ED7C64BBB9F587B8A4B9F2682 /* OPTLYEventView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventView.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventView.m; sourceTree = "<group>"; };
-		926376099F722FDA1B91B1E36E64F1D5 /* OptimizelySDKEventDispatcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OptimizelySDKEventDispatcher.modulemap; sourceTree = "<group>"; };
+		926376099F722FDA1B91B1E36E64F1D5 /* OptimizelySDKEventDispatcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OptimizelySDKEventDispatcher.modulemap; sourceTree = "<group>"; };
 		938FA48B91BC936EF9C9E880325C94BB /* OPTLYManagerBasic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYManagerBasic.m; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYManagerBasic.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		965DC4E5232FD054B6D951E2E0EDA24F /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
 		9822F8DCE0CDC1E5C03BB36F92A216D5 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
-		9A91E351FDF3DF69D6C231F6FA638EFE /* OptimizelySDKiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKiOS.framework; path = OptimizelySDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A91E351FDF3DF69D6C231F6FA638EFE /* OptimizelySDKiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADF2C8C729A9CCFDB5DAD668AC78A02 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
 		9B140CEF7AD26FFA9E0648BEC50DDD5E /* OPTLYEventLayerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventLayerState.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventLayerState.h; sourceTree = "<group>"; };
 		9C5DE0B626FAA524D8218630677D5960 /* OPTLYAudience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYAudience.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYAudience.m; sourceTree = "<group>"; };
@@ -619,7 +619,7 @@
 		A42445A33DFD26BD7925DD3D40B4BDA7 /* OPTLYCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYCondition.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYCondition.m; sourceTree = "<group>"; };
 		A458D6F42446990D490230F0830D4B8E /* OPTLYBaseCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYBaseCondition.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYBaseCondition.m; sourceTree = "<group>"; };
 		A91CCC0A69F1A7418E7CAC745E906A18 /* OptimizelySDKShared-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizelySDKShared-prefix.pch"; sourceTree = "<group>"; };
-		A989A849148BA983A0CD265F788E569B /* OptimizelySDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKCore.framework; path = OptimizelySDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A989A849148BA983A0CD265F788E569B /* OptimizelySDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD341697FBA020A5DD4E6A3867C2AB5 /* OPTLYEventParameterKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventParameterKeys.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventParameterKeys.h; sourceTree = "<group>"; };
 		AB23B700F30A63AE580D59B16DF6B4C2 /* OPTLYErrorHandlerMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYErrorHandlerMessages.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYErrorHandlerMessages.h; sourceTree = "<group>"; };
 		ABC54F539542CEA6BA201B45FD049991 /* OPTLYEventDispatcherBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventDispatcherBuilder.h; path = OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher/OPTLYEventDispatcherBuilder.h; sourceTree = "<group>"; };
@@ -638,7 +638,7 @@
 		B3F6881373D7D67699A0FA4B1A45FE42 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
 		B453F382C6A3E4138D4B70D030AADD06 /* OPTLYEventView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventView.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventView.h; sourceTree = "<group>"; };
 		B531E46FDB62DE981ACE9C50B557134A /* OPTLYExperiment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYExperiment.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYExperiment.m; sourceTree = "<group>"; };
-		B5AE5132A1265D989AF266873C262AE2 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AE5132A1265D989AF266873C262AE2 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6313EE8D386C190BA37F88881E993C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA95286D25AA23326099339149627185 /* Pods-E2E Driver AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-E2E Driver AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB0498C33D8F65276CA6E469540CFB66 /* OPTLYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYLogger.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYLogger.h; sourceTree = "<group>"; };
@@ -646,7 +646,7 @@
 		BD17599401305CCC1BA16E1F1221B161 /* Pods-E2E Driver App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-E2E Driver App-dummy.m"; sourceTree = "<group>"; };
 		BD18400BDA3634A5DC87330951D2AD8B /* OPTLYUserProfileServiceBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYUserProfileServiceBasic.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYUserProfileServiceBasic.h; sourceTree = "<group>"; };
 		BDFBE1A92EE769D8BE8D69F34011287E /* OptimizelySDKCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizelySDKCore-umbrella.h"; sourceTree = "<group>"; };
-		BE14EC1171E3D72D07B58A594181F16A /* OptimizelySDKEventDispatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKEventDispatcher.framework; path = OptimizelySDKEventDispatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE14EC1171E3D72D07B58A594181F16A /* OptimizelySDKEventDispatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKEventDispatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5441119FDAAE1129D91BCFF1270A19 /* OptimizelySDKiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimizelySDKiOS-dummy.m"; sourceTree = "<group>"; };
 		BEE71944AC26E7928C82807BB4137093 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
 		BFA40F61B3B5A5AAF75742825CD1C269 /* Pods-E2E Driver AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-E2E Driver AppUITests-frameworks.sh"; sourceTree = "<group>"; };
@@ -684,7 +684,7 @@
 		E4A7275EC90772956A3AC99BEF549F76 /* OPTLYEventDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventDataStore.h; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYEventDataStore.h; sourceTree = "<group>"; };
 		EA5D151EC7C9486B75D754C5EF40F8DD /* OPTLYEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEvent.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEvent.h; sourceTree = "<group>"; };
 		EE6D66F17A718933D199F351C3FE6E81 /* OPTLYDatafileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYDatafileManager.h; path = OptimizelySDKDatafileManager/OptimizelySDKDatafileManager/OPTLYDatafileManager.h; sourceTree = "<group>"; };
-		F10C2D2175779C5702F5CDB6EFB784EE /* OptimizelySDKUserProfileService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKUserProfileService.framework; path = OptimizelySDKUserProfileService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10C2D2175779C5702F5CDB6EFB784EE /* OptimizelySDKUserProfileService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKUserProfileService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12060AAD28018242ADE8BC2B1EE44C3 /* OPTLYEventHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventHeader.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventHeader.m; sourceTree = "<group>"; };
 		F259CC4EB159769A96995242CEF50941 /* OPTLYVariable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYVariable.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYVariable.m; sourceTree = "<group>"; };
 		F34EFCFDFBA713B06399EAAF979A0FA9 /* Pods-E2E Driver App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-E2E Driver App.release.xcconfig"; sourceTree = "<group>"; };
@@ -695,7 +695,7 @@
 		F4FBB21512BCC0F9C04DB3E874A4A79D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		F6E6A538A7DFE452D50C182637DDEACD /* OptimizelySDKShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EF54219A9B68771382CDA5DAD76AE6 /* OPTLYGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYGroup.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYGroup.m; sourceTree = "<group>"; };
-		F7FB1A5E32065B37B4FA2EA95BDBE874 /* Pods_E2E_Driver_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_E2E_Driver_App.framework; path = "Pods-E2E Driver App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FB1A5E32065B37B4FA2EA95BDBE874 /* Pods_E2E_Driver_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E2E_Driver_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85D43859F86ABDFDBDCDB56521138B1 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
 		F9E27AE1170AEE656F8B4297DE575A7A /* Pods-E2E Driver AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-E2E Driver AppTests-dummy.m"; sourceTree = "<group>"; };
 		FCF9C2C02FE06135E0A7E90B2CCCA56A /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
@@ -853,7 +853,6 @@
 				8810394010E7C922B7E222852CA1EDEA /* OPTLYDatafileManagerBuilder.m */,
 				13DDC3BB8232ABBB0364F5C9FFB36BAE /* Support Files */,
 			);
-			name = OptimizelySDKDatafileManager;
 			path = OptimizelySDKDatafileManager;
 			sourceTree = "<group>";
 		};
@@ -867,7 +866,6 @@
 				FE034B218E1395018D4F93CD7DE9361A /* OPTLYUserProfileServiceBuilder.m */,
 				C97B165F5229D52EB8C63AA069E605CE /* Support Files */,
 			);
-			name = OptimizelySDKUserProfileService;
 			path = OptimizelySDKUserProfileService;
 			sourceTree = "<group>";
 		};
@@ -945,7 +943,6 @@
 				A0BE0AC273992E16653D87413EF1479A /* OPTLYEventDispatcherBuilder.m */,
 				22F607D67FEE97C35D42324049BD0A6A /* Support Files */,
 			);
-			name = OptimizelySDKEventDispatcher;
 			path = OptimizelySDKEventDispatcher;
 			sourceTree = "<group>";
 		};
@@ -977,7 +974,6 @@
 				44E086372238638DA85A6A696CBDEB05 /* OPTLYManagerBuilder.m */,
 				8AFF0A7C5E6F9CC2EE405FC2673C5C16 /* Support Files */,
 			);
-			name = OptimizelySDKShared;
 			path = OptimizelySDKShared;
 			sourceTree = "<group>";
 		};
@@ -1059,7 +1055,6 @@
 				2246CE256CA4927B1544163B8A1AAFC5 /* standard */,
 				75B6B0886169C682B36B634A7116149E /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -1186,7 +1181,6 @@
 				914EBF45273D2C661370C79B0491AB84 /* OPTLYVariationVariable.m */,
 				96E72CED07B59EB30DC27C0782BF8FB7 /* Support Files */,
 			);
-			name = OptimizelySDKCore;
 			path = OptimizelySDKCore;
 			sourceTree = "<group>";
 		};
@@ -1285,7 +1279,6 @@
 				2F80E43E96AA521307597B1057C9CA65 /* JSONValueTransformer.m */,
 				5FF4342E461A9251274CB6F272283F76 /* Support Files */,
 			);
-			name = JSONModel;
 			path = JSONModel;
 			sourceTree = "<group>";
 		};
@@ -1297,7 +1290,6 @@
 				5EF140EAAD95758C7742F8F97670FB6D /* OPTLYManager.m */,
 				35C5B28E38B660D703AF810662F72B67 /* Support Files */,
 			);
-			name = OptimizelySDKiOS;
 			path = OptimizelySDKiOS;
 			sourceTree = "<group>";
 		};
@@ -1704,7 +1696,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2133,19 +2125,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -2601,20 +2603,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
