@@ -296,7 +296,7 @@
         <!--Client Initialization Controller-->
         <scene sceneID="w1D-VM-JZJ">
             <objects>
-                <viewController id="fmT-jH-UlJ" userLabel="Client Initialization Controller" sceneMemberID="viewController">
+                <viewController id="fmT-jH-UlJ" userLabel="Client Initialization Controller" customClass="ClientInitializationVC" customModule="E2E_Driver_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kdu-l2-IDb"/>
                         <viewControllerLayoutGuide type="bottom" id="pI7-05-Yof"/>
@@ -306,22 +306,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="center" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aCi-kh-j1B">
-                                <rect key="frame" x="67" y="214" width="242" height="240"/>
+                                <rect key="frame" x="67.5" y="214" width="241.5" height="240"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set the State for the SDK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mT8-Hf-gx4">
-                                        <rect key="frame" x="24.5" y="0.0" width="192" height="30"/>
+                                        <rect key="frame" x="25" y="0.0" width="192" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Profile Service Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXT-xh-Ozm">
-                                        <rect key="frame" x="20" y="30" width="201.5" height="30"/>
+                                        <rect key="frame" x="20.5" y="30" width="200.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Normal" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DKt-EO-tdm">
-                                        <rect key="frame" x="86.5" y="60" width="68" height="30"/>
+                                        <rect key="frame" x="87" y="60" width="68" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -351,7 +351,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sug-iU-uTD">
-                                        <rect key="frame" x="92.5" y="210" width="56" height="30"/>
+                                        <rect key="frame" x="93" y="210" width="56" height="30"/>
                                         <state key="normal" title="Initialize"/>
                                         <connections>
                                             <segue destination="dZU-Da-NO3" kind="show" id="Z7A-9b-qT7"/>
@@ -371,6 +371,11 @@
                             <constraint firstItem="aCi-kh-j1B" firstAttribute="centerY" secondItem="IYv-gy-aGG" secondAttribute="centerY" id="93j-vl-vod"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ForcedVariationMappingState" destination="ZYx-KI-gsa" id="TQ7-Kc-F90"/>
+                        <outlet property="UserProfileServiceNameField" destination="DKt-EO-tdm" id="TN7-ay-HLw"/>
+                        <outlet property="UserProfileServiceStateField" destination="ZNQ-cY-iYX" id="P9Y-m3-WXx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rf3-A0-wjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
