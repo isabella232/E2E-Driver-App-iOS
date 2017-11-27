@@ -10,6 +10,7 @@
 		2D5C4F501F8410FE00E6D315 /* datafile.json in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C4F4F1F8410FD00E6D315 /* datafile.json */; };
 		2D5C4F511F84111200E6D315 /* datafile.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C4F4F1F8410FD00E6D315 /* datafile.json */; };
 		2D5C4F531F84117500E6D315 /* ClientInitializationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C4F521F84117500E6D315 /* ClientInitializationVC.swift */; };
+		2D5C4F551F86D45200E6D315 /* UserProfileServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C4F541F86D45200E6D315 /* UserProfileServiceHelper.swift */; };
 		2DC49C4F1F82E2A20035580C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C4E1F82E2A20035580C /* AppDelegate.swift */; };
 		2DC49C511F82E2A20035580C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC49C501F82E2A20035580C /* ViewController.swift */; };
 		2DC49C541F82E2A20035580C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC49C521F82E2A20035580C /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		2B14CCA7C2C61D4DF97C5D7F /* Pods-E2E Driver AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E2E Driver AppTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-E2E Driver AppTests/Pods-E2E Driver AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D5C4F4F1F8410FD00E6D315 /* datafile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = datafile.json; path = ../datafile.json; sourceTree = "<group>"; };
 		2D5C4F521F84117500E6D315 /* ClientInitializationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInitializationVC.swift; sourceTree = "<group>"; };
+		2D5C4F541F86D45200E6D315 /* UserProfileServiceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileServiceHelper.swift; sourceTree = "<group>"; };
 		2DC49C4B1F82E2A20035580C /* E2E Driver App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E2E Driver App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC49C4E1F82E2A20035580C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DC49C501F82E2A20035580C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				2DC49C5A1F82E2A20035580C /* LaunchScreen.storyboard */,
 				2DC49C5D1F82E2A20035580C /* Info.plist */,
 				2DC49C551F82E2A20035580C /* E2E_Driver_App.xcdatamodeld */,
+				2D5C4F541F86D45200E6D315 /* UserProfileServiceHelper.swift */,
 			);
 			path = "E2E Driver App";
 			sourceTree = "<group>";
@@ -253,7 +256,7 @@
 					2DC49C4A1F82E2A20035580C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = BDMC9C2X5M;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					2DC49C611F82E2A20035580C = {
@@ -467,6 +470,7 @@
 				2D5C4F501F8410FE00E6D315 /* datafile.json in Sources */,
 				2DC49C571F82E2A20035580C /* E2E_Driver_App.xcdatamodeld in Sources */,
 				2DC49C511F82E2A20035580C /* ViewController.swift in Sources */,
+				2D5C4F551F86D45200E6D315 /* UserProfileServiceHelper.swift in Sources */,
 				2DC49C4F1F82E2A20035580C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -634,11 +638,13 @@
 			baseConfigurationReference = 59385EC7592091110FC877A8 /* Pods-E2E Driver App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BDMC9C2X5M;
 				INFOPLIST_FILE = "E2E Driver App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Optimizely.E2E-Driver-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 			};
@@ -649,6 +655,7 @@
 			baseConfigurationReference = 8358DB1E0A3041CA99285726 /* Pods-E2E Driver App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = BDMC9C2X5M;
 				INFOPLIST_FILE = "E2E Driver App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

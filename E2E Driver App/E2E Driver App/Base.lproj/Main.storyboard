@@ -354,6 +354,7 @@
                                         <rect key="frame" x="93" y="210" width="56" height="30"/>
                                         <state key="normal" title="Initialize"/>
                                         <connections>
+                                            <action selector="initializeClientPressed:" destination="fmT-jH-UlJ" eventType="touchUpInside" id="YEz-OB-cRe"/>
                                             <segue destination="dZU-Da-NO3" kind="show" id="Z7A-9b-qT7"/>
                                         </connections>
                                     </button>
