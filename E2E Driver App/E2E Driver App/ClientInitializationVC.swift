@@ -45,14 +45,17 @@ class ClientInitializationVC : UIViewController {
             
         }
         
-        let userProfileServiceName : String! = self.UserProfileServiceNameField!.text!
-        let userProfileService : OPTLYUserProfileService = UserProfileServiceHelper.getUserProfileService(userProfileServiceName)!
+//        let userProfileServiceName : String! = self.UserProfileServiceNameField!.text!
+//        let userProfileService : OPTLYUserProfileService = UserProfileServiceHelper.getUserProfileService(userProfileServiceName)!
         
         let optlyClient : OPTLYClient? = OPTLYClient.init { (builder) in
             builder.datafile = datafile
-            builder.userProfileService = userProfileService
+//            builder.userProfileService = userProfileService
         }
         
+        let apiSelectorVC : APIViewController! = storyboard?.instantiateViewController(withIdentifier: "APIs View Controller") as! APIViewController
+        apiSelectorVC.optlyClient = optlyClient
+        self.present(apiSelectorVC, animated: true, completion: nil)
     }
     
     
