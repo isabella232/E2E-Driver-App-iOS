@@ -75,7 +75,7 @@
         <!--APIs View Controller-->
         <scene sceneID="MsS-qD-GqP">
             <objects>
-                <viewController storyboardIdentifier="APIs View Controller" id="dZU-Da-NO3" userLabel="APIs View Controller" customClass="APIViewController" customModule="E2E_Driver_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="APIs View Controller" id="dZU-Da-NO3" userLabel="APIs View Controller" customClass="APIs_VC" customModule="E2E_Driver_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W3s-gr-00Z"/>
                         <viewControllerLayoutGuide type="bottom" id="Xn9-KY-gNI"/>
@@ -97,7 +97,7 @@
                                         <rect key="frame" x="0.0" y="20.5" width="244.5" height="30"/>
                                         <state key="normal" title="activate"/>
                                         <connections>
-                                            <segue destination="f8b-eh-T9I" kind="show" id="Ybi-t2-zOn"/>
+                                            <action selector="activate_pressed:" destination="dZU-Da-NO3" eventType="touchUpInside" id="bii-bI-4Q2"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqB-Fe-Sa2">
@@ -129,7 +129,7 @@
         <!--Activate API Controller-->
         <scene sceneID="EXB-3e-m4J">
             <objects>
-                <viewController id="f8b-eh-T9I" userLabel="Activate API Controller" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Activate API View Controller" id="f8b-eh-T9I" userLabel="Activate API Controller" customClass="ActivateAPI_VC" customModule="E2E_Driver_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ANY-hL-gwR"/>
                         <viewControllerLayoutGuide type="bottom" id="rZl-3d-vp2"/>
@@ -187,7 +187,7 @@
                                         <rect key="frame" x="0.0" y="172" width="122" height="30"/>
                                         <state key="normal" title="Call API"/>
                                         <connections>
-                                            <segue destination="Gn3-EB-d4K" kind="show" id="x14-kT-Hsz"/>
+                                            <action selector="CallAPI_Pressed:" destination="f8b-eh-T9I" eventType="touchUpInside" id="M4u-Pr-cIL"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -199,6 +199,11 @@
                             <constraint firstItem="3c0-CQ-vs4" firstAttribute="centerX" secondItem="yi5-IY-4Io" secondAttribute="centerX" id="spv-Ja-7Ff"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="attributesTextField" destination="y2M-xl-9Kx" id="Gfj-kf-tbm"/>
+                        <outlet property="experimentKeyTextField" destination="i3c-gr-Gek" id="azT-kO-Kkm"/>
+                        <outlet property="userIdTextField" destination="BOC-tc-7zf" id="Q84-QB-fYx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9vc-5U-vy4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -207,7 +212,7 @@
         <!--API Result Controller-->
         <scene sceneID="sqf-cK-GI1">
             <objects>
-                <viewController id="Gn3-EB-d4K" userLabel="API Result Controller" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="APIs Result View Controller" id="Gn3-EB-d4K" userLabel="API Result Controller" customClass="APIsResult_VC" customModule="E2E_Driver_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gaV-ab-m98"/>
                         <viewControllerLayoutGuide type="bottom" id="sgS-Av-d4H"/>
@@ -289,6 +294,12 @@
                             <constraint firstItem="fLw-Fh-ioO" firstAttribute="centerX" secondItem="Uv5-4f-dLF" secondAttribute="centerX" id="WMy-WZ-6Fh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="apiReturnValueTextField" destination="dge-Y1-seb" id="CvE-d5-BcG"/>
+                        <outlet property="forcedVariationMappingStateTextField" destination="bug-SX-t9x" id="nkf-TV-uXg"/>
+                        <outlet property="logOutputsTextField" destination="vVd-3Y-6gV" id="UTn-gd-zeb"/>
+                        <outlet property="userProfileServiceStateTextField" destination="cg4-Ua-BoC" id="d1h-3A-Isd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQ8-Ll-z7a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
